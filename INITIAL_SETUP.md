@@ -22,5 +22,3 @@ This is so that App have `writeCapabilities` permissions and can set up CORS Rul
 
 #### Copy details over to your device
 ![API key success prompt](https://github.com/photosync/android-sync-backblaze-b2/blob/master/resources/images/api_key_copy.png?raw=true)
-
-> **Easy way**: You can copy&paste the whole text into: [Browser QR code generator](https://web.syncaware.com/qr) and scan it using the built-in QR scanner in phone app.
