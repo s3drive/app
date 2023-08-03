@@ -36,7 +36,7 @@ Type `n` for a new remote, then give it a name. In this example we call it `mini
 Next we need to choose which backend shall be used. Since MinIO is Amazon S3 compliant storage, we type `4`.
 It is recommended to use back-end native protocol. For instance for Backblaze their native API (option `6`) is more efficient than S3.
 
-![rclone1](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclone1.png)
+![rclone1](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclone1.png)
 
 From the S3 back-end selection list, choose MinIO. (Option `7` in our case)
 
@@ -54,7 +54,7 @@ Simply skip `location_constraint` with enter
 
 For `acl` you should use `1`
 
-![rclone2](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclone2.png)
+![rclone2](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclone2.png)
 
 
 Serverside encryption is `none` (1)
@@ -70,7 +70,7 @@ Quit Rclone and test copy some files to your MinIO. Backup the configuration fol
 
 `rclone copy .config minio:mybackup` 
 
-![rclone3](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclone3.png)
+![rclone3](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclone3.png)
 
 `minio` is the remote name and `mybackup` is the bucket name in MinIO.
 
@@ -78,7 +78,7 @@ Quit Rclone and test copy some files to your MinIO. Backup the configuration fol
 
 #### Verify MinIO contents
 
-![MinIO1.png](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/MinIO1.png)
+![MinIO1.png](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/MinIO1.png)
 
 It worked. If you don't want encryption you are ready to go with S3Drive. Login and you will see the files in your bucket.
 
@@ -97,7 +97,7 @@ Start Rclone configuration again with:
 
 We want to add a new encrypted remote, so press `n`, give it a name (secure in my case) and choose `Encrypt/Decrypt a remote` (number 10)
 
-![rclonepart2-1.png](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclonepart2-1.png)
+![rclonepart2-1.png](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclonepart2-1.png)
 
 Next we need to tell Rclone which remote shall be encrypted. We only have one with the name minio and our bucket mybackup, so type `minio:mybackup`
 Please always use a specific bucket and not the whole remote. 
@@ -114,7 +114,7 @@ Press `y` to use your own password or `g` to generate a new one. The password wi
 
 S3Drive only supports one password for now, so just press "n" when asked for the second password. Next step is the advanced configuration, so press `y`
 
-![rclonepart2-2.png](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclonepart2-2.png)
+![rclonepart2-2.png](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclonepart2-2.png)
 
 Skip `server_side_across_configs` with enter then press `2` for the encryption of the data.
 Skip `pass_bad_blocks` again with enter and now choose `2` for encoding with base64. 
@@ -125,7 +125,7 @@ Last step is to skip `suffix` with enter and then press `n` because we don't nee
 Lastly you get an overview again, press `y` to accept this config and exit Rclone.
 
 
-![rclonepart2-3.png](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/rclonepart2-3.png)
+![rclonepart2-3.png](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/rclonepart2-3.png)
 
 We are done on this side, clear your bucket, because we want to test our encryption
 
@@ -137,30 +137,30 @@ We will now use the name `secure` as our remote. Secure is the encryption and po
 
 Take a look in your MinIO browser. The same files are now stored in your bucket in a cryptical folder. The files are encrypted too.
 
-![MinIO2.png](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/MinIO2.png)
+![MinIO2.png](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/MinIO2.png)
 
 ## S3Drive setup
 Finally we need to setup S3Drive, since we want to get access to our data.
 Start the app and login with your credentials.
 
-![s3-1.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-1.jpg)
+![s3-1.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-1.jpg)
 
 You see the exact encrypted folder like in the MinIO Console. 
 
-![s3-2.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-2.jpg)
+![s3-2.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-2.jpg)
 
 Go to the settings and tap on E2E encryption. 
 
-![s3-3.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-3.jpg)
+![s3-3.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-3.jpg)
 
 Press the start button and then type in the same password you have chosen for the encryption in Rclone. 
 
-![s3-4.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-4.jpg)
+![s3-4.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-4.jpg)
 
 Go back to your bucket and you will see it is already readable. 
 
-![s3-5.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-5.jpg)  
-![s3-6.jpg](https://raw.githubusercontent.com/s3drive/app/master/resources/images/rclone/s3-6.jpg)
+![s3-5.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-5.jpg)  
+![s3-6.jpg](https://raw.githubusercontent.com/s3drive/app/master/contributors/rclone_setup/s3-6.jpg)
 
 All files you upload through the app are encrypted too.
 
