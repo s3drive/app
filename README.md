@@ -4,6 +4,10 @@
 
 <div style="margin-top: 30px;"></div>
 
+### <a href="https://s3drive.app">Website</a><br>
+### <a href="https://docs.s3drive.app">Documentation</a><br>
+
+
 ### Clients:
 
 Mobile:
@@ -20,7 +24,7 @@ Web:
 - <a href="https://web.s3drive.app">web.s3drive.app</a> (self-contained browser client)
 
 ### Contact
-<a href="https://s3drive.app">Website</a><br>
+
 <a href="https://s3drive.canny.io">Roadmap</a><br> 
 <a href="https://discord.gg/YvxvypRqCu">Discord</a><br>
 <a href="https://s3drive.app/feedback">Contact form</a>
