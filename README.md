@@ -24,13 +24,12 @@ Web:
 - <a href="https://web.s3drive.app">web.s3drive.app</a> (self-contained browser client)
 
 ### Contact
-
-<a href="https://s3drive.canny.io">Roadmap</a><br> 
 <a href="https://discord.gg/YvxvypRqCu">Discord</a><br>
-<a href="https://s3drive.app/feedback">Contact form</a>
+<a href="https://s3drive.app/feedback">Feedback form</a><br>
+<a href="https://s3drive.canny.io">Roadmap</a>
 
 ### Support & Bugs
-[Github  Issues](https://github.com/s3drive/app/issues)<br>
-[Discord Support](https://discord.com/channels/1069654792902815845/1102236355645419550)<br>
+[Discord support](https://discord.gg/YvxvypRqCu)<br>
+[Github issues](https://github.com/s3drive/app/issues)<br>
 
 Please provide what platform are you using, version number, S3 provider and some additional details/screenshot, so we can better assist you with your issue.
