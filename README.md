@@ -1,6 +1,6 @@
 # S3Drive [![S3Drive](https://web.s3drive.app/assets/assets/logos/logo_42.png)](https://s3drive.app/)
 
-### Zero Knowledge E2E encrypted storage compatible with any S3 provider
+### Encrypted storage compatible with S3, WebDAV and 70+ other Rclone back-ends
 
 <div style="margin-top: 30px;"></div>
 
