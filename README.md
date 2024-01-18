@@ -32,4 +32,4 @@ Web:
 [Discord support](https://discord.gg/YvxvypRqCu)<br>
 [Github issues](https://github.com/s3drive/app/issues)<br>
 
-Please provide what platform are you using, version number, S3 provider and some additional details/screenshot, so we can better assist you with your issue.
+Please provide what platform are you using, version number, storage provider name and some additional details/screenshot, so we can better assist you with your issue.
