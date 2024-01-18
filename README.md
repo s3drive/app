@@ -6,7 +6,7 @@
 
 ### <a href="https://s3drive.app">Website</a><br>
 ### <a href="https://docs.s3drive.app">Documentation</a><br>
-
+### <a href="https://s3drive.app/changelog">Changelog</a><br>
 
 ### Clients:
 
