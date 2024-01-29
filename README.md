@@ -23,6 +23,7 @@ Desktop:
 Web:
 - <a href="https://web.s3drive.app">web.s3drive.app</a> (self-contained browser client)
 
+> **DISCLAIMER**: S3Drive source code isn't currently available. Please find more about this [here](https://s3drive.app/faq?q=opensource).
 ### Contact
 <a href="https://discord.gg/YvxvypRqCu">Discord</a><br>
 <a href="https://s3drive.app/feedback">Feedback form</a><br>
