@@ -11,7 +11,7 @@
 ### Clients:
 
 Mobile:
-- Android <a href="https://play.google.com/store/apps/details?id=com.s3.drive.file.explorer.storage.cloud.manager">Play Store</a> | <a href="https://docs.s3drive.app/install/#android">APK release</a>
+- Android <a href="https://play.google.com/store/apps/details?id=com.s3.drive.file.explorer.storage.cloud.manager">Play Store</a>
 - iOS <a href="https://apps.apple.com/us/app/s3drive-cloud-storage/id1665135106">App Store</a><br>
 
 Desktop:
