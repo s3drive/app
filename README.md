@@ -12,13 +12,13 @@
 
 Mobile:
 - Android <a href="https://play.google.com/store/apps/details?id=com.s3.drive.file.explorer.storage.cloud.manager">Play Store</a>
-- iOS <a href="https://apps.apple.com/us/app/s3drive-cloud-storage/id1665135106">App Store</a><br>
+- iOS <a href="https://apps.apple.com/us/app/s3drive-cloud-storage/id6738086033">App Store</a><br>
 
 Desktop:
 - Windows <a href="https://docs.s3drive.app/install/#windows">exe</a> | <a href="https://apps.microsoft.com/store/detail/s3drive-cloud-storage/9NX2DN9Q37NS">Microsoft Apps</a>*
-- MacOS <a href="https://docs.s3drive.app/install/#macos">Mac (dmg)</a> | <a href="https://apps.apple.com/lv/app/s3drive-cloud-storage/id1665135106">App Store</a>*
+- MacOS <a href="https://docs.s3drive.app/install/#macos">Mac (dmg)</a>
 - Linux <a href="https://flathub.org/en-GB/apps/io.kapsa.drive">Flathub</a> | <a href="https://docs.s3drive.app/install/#appimage">AppImage</a> | <a href="https://docs.s3drive.app/install/#deb-package">deb</a><br>
-<sup><sub>*it is recommended to use `exe` and `dmg` formats respectively for most up to date experience.</sub></sup><br>
+<sup><sub>*it is recommended to use `exe` format for most up to date experience.</sub></sup><br>
 
 Web:
 - <a href="https://web.s3drive.app">web.s3drive.app</a> (self-contained browser client)
