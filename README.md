@@ -28,7 +28,7 @@ Web:
 ### Contact
 <a href="https://discord.gg/YvxvypRqCu">Discord</a><br>
 <a href="https://s3drive.app/feedback">Feedback form</a><br>
-<a href="https://s3drive.canny.io">Roadmap</a>
+<a href="https://s3drive.app/roadmap">Roadmap</a>
 
 ### Support & Bugs
 [Discord support](https://discord.gg/YvxvypRqCu)<br>
