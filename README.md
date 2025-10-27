@@ -15,7 +15,7 @@ Mobile:
 - iOS <a href="https://apps.apple.com/us/app/s3drive-cloud-storage/id6738086033">App Store</a><br>
 
 Desktop:
-- Windows <a href="https://docs.s3drive.app/install/#windows">exe</a> | winget <a href="https://docs.s3drive.app/install/#winget">exe</a> | <a href="https://apps.microsoft.com/store/detail/s3drive-cloud-storage/9NX2DN9Q37NS">Microsoft Apps</a>*
+- Windows <a href="https://docs.s3drive.app/install/#windows">exe</a> | <a href="https://docs.s3drive.app/install/#winget">winget</a> | <a href="https://apps.microsoft.com/store/detail/s3drive-cloud-storage/9NX2DN9Q37NS">Microsoft Apps</a>*
 - MacOS <a href="https://docs.s3drive.app/install/#macos">Mac (dmg)</a>
 - Linux <a href="https://flathub.org/en-GB/apps/io.kapsa.drive">Flathub</a> | <a href="https://docs.s3drive.app/install/#appimage">AppImage</a> | <a href="https://docs.s3drive.app/install/#deb-package">deb</a><br>
 <sup><sub>*it is recommended to use `exe` format for most up to date experience.</sub></sup><br>
